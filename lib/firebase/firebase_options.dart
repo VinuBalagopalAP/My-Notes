@@ -5,15 +5,7 @@ import 'package:flutter/foundation.dart'
     show defaultTargetPlatform, kIsWeb, TargetPlatform;
 
 /// Default [FirebaseOptions] for use with your Firebase apps.
-///
-/// Example:
-/// ```dart
-/// import 'firebase_options.dart';
-/// // ...
-/// await Firebase.initializeApp(
-///   options: DefaultFirebaseOptions.currentPlatform,
-/// );
-/// ```
+
 class DefaultFirebaseOptions {
   static FirebaseOptions get currentPlatform {
     if (kIsWeb) {
@@ -66,7 +58,8 @@ class DefaultFirebaseOptions {
     messagingSenderId: '1007150715053',
     projectId: 'mynotes-fluttervinu',
     storageBucket: 'mynotes-fluttervinu.appspot.com',
-    iosClientId: '1007150715053-tvr0nh7ohmfh5ti744culcl7sf9236vr.apps.googleusercontent.com',
+    iosClientId:
+        '1007150715053-tvr0nh7ohmfh5ti744culcl7sf9236vr.apps.googleusercontent.com',
     iosBundleId: 'com.example.mynotes',
   );
 
@@ -76,7 +69,8 @@ class DefaultFirebaseOptions {
     messagingSenderId: '1007150715053',
     projectId: 'mynotes-fluttervinu',
     storageBucket: 'mynotes-fluttervinu.appspot.com',
-    iosClientId: '1007150715053-tvr0nh7ohmfh5ti744culcl7sf9236vr.apps.googleusercontent.com',
+    iosClientId:
+        '1007150715053-tvr0nh7ohmfh5ti744culcl7sf9236vr.apps.googleusercontent.com',
     iosBundleId: 'com.example.mynotes',
   );
 }
